@@ -139,7 +139,7 @@ server:
     port: 8443
     ssl:
         enabled: true
-        keyStore: /Users/sdelamo/git/grails-samples/grails-ssl/certificates/keystore.p12
+        keyStore: ./certificates/keystore.p12
         #keyStore: /Users/sdelamo/git/grails-samples/grails-ssl/certificates/keystore.jks
         keyStorePassword: exportpassword
         keyStoreType: PKCS12
